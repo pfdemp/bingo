@@ -51,7 +51,7 @@ background-color: #07294D;
 color:  #FFC600;	
 }
 
-td:hover {
+td.cellopen:hover {
 	background-color: #07294D !important;
 	color: white;
 }
