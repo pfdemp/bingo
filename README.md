@@ -1,0 +1,2 @@
+# bingo
+Javascript bingo game
