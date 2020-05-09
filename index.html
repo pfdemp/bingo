@@ -1,0 +1,73 @@
+<html>
+
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Cambay' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+<meta charset="utf-8" />
+
+<title>Bingo</title>
+
+<link rel="stylesheet" type="text/css" href="bingo.css" />
+
+<script type="text/javascript" src="bingo.js"></script>
+
+</head>
+
+<body>
+
+	<div id="container">
+    <div id="header">
+      <h1>Play Dragoneer Bingo</h1>
+    </div>
+	<div id="content">
+		<table id="bingotable">
+			<tr>
+				<th class="orange">B</th>
+				<th class="orange">I</th>
+				<th class="orange">N</th>
+				<th class="orange">G</th>
+				<th class="orange">O</th>
+			</tr>
+			<tr>
+				<td  onClick="toggleCell(this)" id="B1">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="I1">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="N1">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="G1">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="O1">&nbsp; </td>
+			</tr>
+			<tr>
+				<td  onClick="toggleCell(this)" id="B2">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="I2">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="N2">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="G2">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="O2">&nbsp; </td>
+			</tr>
+			<tr>
+				<td  onClick="toggleCell(this)" id="B3">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="I3">&nbsp; </td>
+				<td  id="N3" class="cellfree"><img src="freecell.png"></td>
+				<td  onClick="toggleCell(this)" id="G3">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="O3">&nbsp; </td>
+			</tr>
+			<tr>
+				<td  onClick="toggleCell(this)" id="B4">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="I4">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="N4">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="G4">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="O4">&nbsp; </td>
+			</tr>
+			<tr>
+				<td  onClick="toggleCell(this)" id="B5">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="I5">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="N5">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="G5">&nbsp; </td>
+				<td  onClick="toggleCell(this)" id="O5">&nbsp; </td>
+			</tr>
+		</table>
+	</div>
+	
+<p><a href="#" onclick="setCards()">Get Your Bingo Card</a></p>
+
+</body>
+
+</html>

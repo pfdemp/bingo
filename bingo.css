@@ -1,0 +1,68 @@
+body {
+	background-image: url("bglogo.png");
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, p {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+	font-size: 20pt;
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+  color: #07294D;
+}
+
+p a {
+  text-decoration: underline;
+  color: #FFC600;
+}
+
+#bingotable {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+  height: 400px;
+  border-collapse: collapse;
+}
+#container {
+	background-color: #ffffff;
+	padding: 25px;
+}
+
+th, td {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  margin: 0 auto;
+  text-align: center;
+  border: 3px solid black;
+  width: 20%;
+	height: 80px;
+	padding: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+th {
+background-color: #07294D;
+color:  #FFC600;	
+}
+
+td:hover {
+	background-color: #07294D !important;
+	color: white;
+}
+
+td.cellclosed {
+	background-color: #FFC600;
+}
+td.cellopen {
+	background-color: #ffffff;
+}
+td.cellfree {
+	background-color: #07294D;
+}
+
