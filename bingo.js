@@ -6,7 +6,7 @@ function setCards() {
 	var colHead = new Array("X","B","I","N","G","O");
 	for(var bcol=1; bcol<6; bcol++){
 		var minrand = 1 + ((bcol-1) * 15);
-		var maxrand = 15 * bcol;
+		var maxrand = (15 * bcol) + 1;
 		for(var row=1; row<6; row++){
 			var numDupe = true;
 			var curSquare = colHead[bcol]+row;

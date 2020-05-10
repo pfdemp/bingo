@@ -10,7 +10,7 @@ function newGame() {
 
 function getBall() {
 	var minrand = 1;
-	var maxrand = 75;
+	var maxrand = 76;
 	var numDupe = true;
 	while(numDupe){
 		var ballnum = Math.floor(Math.random() * (maxrand - minrand)) + minrand;
