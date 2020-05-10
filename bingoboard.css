@@ -1,0 +1,80 @@
+body {
+	background-image: url("bglogo.png");
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, h2 {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+  font-weight: 600;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  color: #07294D;
+}
+
+p {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+  font-size: 16px;
+  color: #00000;
+}
+table {
+	background-color: #3F3F3F
+}
+
+td {
+  font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+  margin: 0 auto;
+  text-align: center;
+	padding: 5px;
+  font-size: 32px;
+  font-weight: bold;
+}
+.numberoff {
+	color: #ffffff;
+	}
+.letter {
+	color: #E32329
+	}
+.numberon {
+	color: #F9EB26;
+	background-color: #B3B3B3
+	}
+#container {
+	background-color: #ffffff;
+	padding: 25px;
+}
+#instructions {
+}
+
+button {
+  background-color: #07294D;
+  border-radius: 12px;
+  color: white;
+	margin: 15px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#controls {
+	margin: 25px auto;
+	text-align: center;
+	display: block;
+}
+#ballnum {
+  height: 50px;
+  width: 50px;
+  background-color: #07294D;
+  color: #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
+  font-size: 30px;
+  padding: 10px;
+
+}
