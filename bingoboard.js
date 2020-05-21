@@ -7,7 +7,7 @@ function newGame() {
 		document.getElementById(cellID).className = "numberoff";
 	}
 	document.getElementById("ballnum").innerHTML = "&nbsp;";
-	document.getElementById("message").innerHTML = " ";
+	document.getElementById("message").innerHTML = "&nbsp;";
 	balls = 0;
 }
 
