@@ -28,6 +28,7 @@ function getBall() {
 				document.getElementById("ballnum").innerHTML = ballLetter + ballnum;
 				numDupe = false;
 				balls++;
+				document.getElementById("message").innerHTML = "Balls selected: " + balls;
 			}	
 		}
 	}

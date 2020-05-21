@@ -12,17 +12,17 @@ h1 {
   font-weight: 600;
   margin: 0 auto;
   text-align: center;
-  padding: 10px;
   color: #07294D;
 }
 h2 {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
   font-weight: 600;
-  margin: 0 auto;
-  padding: 10px;
   color: #07294D;
 }
-
+img.pic {
+	float: right;
+	padding-left: 10px;
+}
 p {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; 
   font-size: 16px;
@@ -34,6 +34,12 @@ p.link {
   font-size: 18px;
   color: #FFC600;
 	margin-top: 10px;
+}
+p.backlink {
+  text-align: right;
+  font-size: 14px;
+  color: #FFC600;
+  margin: 1px;
 }
 p.credit {
 	font-size: 12px;
@@ -59,7 +65,7 @@ a:hover {
 	padding: 25px;
 }
 #instructions {
-	max-width: 600px;
+	max-width: 800px;
 }
 th, td {
   font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
